@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // const repeatString = function() {
 
 // };
@@ -9,6 +10,12 @@
 function repeatString(string, times) {
   let repeatString = "";
 
+=======
+// make the words repeat next to each other without spaces
+function repeatString(string, times) {
+  let repeatString = "";
+
+>>>>>>> b2192dd74f176b569aa765c758938bf21fe83652
   while (times > 0) { // As long as times is greater than 0, the statement is executed
     repeatString += string; // Same as repeatString = repeatString + string;
     times--; // Same as times = times - 1;
